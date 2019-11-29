@@ -1,0 +1,16 @@
+.headerContainer {
+    background-color: #FFE4C4;
+    height: 10%;
+    position: relative;
+
+}
+
+
+.headerContainer p {
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+}

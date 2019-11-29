@@ -1,0 +1,38 @@
+.todoContainer {
+    padding: 2rem;
+    background-color: #cce6ff;
+}
+.todoElements {
+    display: flex;
+    justify-content: center;
+}
+input {
+    width: 100%;
+    background-color: 'light-grey';
+    border: 1px solid;
+    text-indent: 10px;
+    margin-right: 10px;
+}
+
+.todoButton {
+    background-color: #deb887;
+    border: none;
+    padding: 1rem;
+    font-size: 1.8vw;
+}
+
+.todoItem {
+    background-color: rgba(246, 240, 240, 0.2);
+    border: solid 0.1px;
+    border-color: grey;
+    padding: 1vw;
+    width: 50%;
+}
+
+.removeButton {
+    float: right;
+}
+h1 {
+    color: grey;
+    margin-bottom: 1rem;
+}

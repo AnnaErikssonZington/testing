@@ -1,0 +1,25 @@
+.nav-link {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 3vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    top: 100%;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+.navbar {
+    display: flex;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 0.5vw;
+
+}
