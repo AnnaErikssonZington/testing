@@ -7,18 +7,22 @@ function ItemNav() {
     return (
         <ul className="navbar">
             <li>
-                <NavLink to="/" exact activeStyle={{ color: 'grey' }} className="nav-link">
+                <NavLink
+                    to="/"
+                    exact
+                    activeStyle={{ color: 'grey' }}
+                    className="nav-link"
+                >
                     Home
                 </NavLink>
             </li>
             <li>
-                <NavLink to="/about" activeStyle={{ color: 'grey' }} className="nav-link">
+                <NavLink
+                    to="/about"
+                    activeStyle={{ color: 'grey' }}
+                    className="nav-link"
+                >
                     About
-                </NavLink>
-            </li>
-            <li>
-                <NavLink to="/testing" activeStyle={{ color: 'grey' }} className="nav-link">
-                    Testing
                 </NavLink>
             </li>
         </ul>
@@ -27,7 +31,7 @@ function ItemNav() {
 
 ItemNav.propTypes = {
     selected: PropTypes.string.isRequired,
-    onUpdateItem: PropTypes.func.isRequired,
+    onUpdateItem: PropTypes.func.isRequired
 };
 
 export default class Navbar extends React.Component {
@@ -35,7 +39,7 @@ export default class Navbar extends React.Component {
         super(props);
 
         this.state = {
-            selectedTab: '',
+            selectedTab: ''
         };
 
         this.updateTab = this.updateTab.bind(this);
