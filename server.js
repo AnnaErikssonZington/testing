@@ -4,6 +4,6 @@ const PORT = process.env.PORT || 8080;
 
 app.get('/names', (req, res) => {
     const name = ['Anna', 'Johan'];
-    res.json(name);
+    res.send(name);
 });
 app.listen(PORT, () => console.log('running'));
