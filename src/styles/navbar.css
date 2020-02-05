@@ -1,7 +1,7 @@
 .nav-link {
     background: transparent;
     border: none;
-    color: white;
+    color: red;
     font-size: 3vw;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -11,7 +11,6 @@
 
 li {
     list-style-type: none;
-
 }
 
 .navbar {
@@ -21,5 +20,4 @@ li {
     bottom: 0;
     right: 0;
     padding-bottom: 0.5vw;
-
 }
